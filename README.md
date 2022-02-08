@@ -6,7 +6,7 @@ This file contains the main sources I used while developing this operating syste
 # prerequisite knowledge
 Below is a list of prerequisite knowledge needed before building a 32-bit x86 operating system
 
-- https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH - this link leads to a playlist created by ben eater. In this series, Ben Eater creates a 6502 computer system. The reason I recommend this is because it gives a great base understanndding of how the cpu interacts with the rest of the components (ram, rom, io, etc..).
+- [youtube vid](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH) - this link leads to a playlist created by ben eater. In this series, Ben Eater creates a 6502 computer system. The reason I recommend this is because it gives a great base understanndding of how the cpu interacts with the rest of the components (ram, rom, io, etc..).
 - [https://8bitworkshop.com/v3.8.0/?platform=vcs&file=examples%2Fhello.a] - This link leads to an online IDE that allows you to code in 6502 assembly for an atari, and many other old computer systems. This is a great source for learning how to code in assembly.
 - [https://skilldrick.github.io/easy6502/] - this link helped me understand 6502 assembly. it goes through all the basics of 6502 assembly. highly recommend for learning 6502 assembly.
 - [https://www.youtube.com/watch?v=ojHSzW3zVNU&list=PLZlHzKk21aImqCiV71iE2I1dUE5LNejQk] - This link isn't necessary, but it gives a great understanding of how cpu's work internally. 
