@@ -55,4 +55,4 @@ Below is a list of prerequisite knowledge needed before building a 32-bit x86 op
 - [https://nithinbekal.com/notes/os/] - another good gateway to useful sources
 - [https://wiki.osdev.org/Creating_an_Operating_System] - greate source as a guide on the steps required to build an operating system
 
-[An Internal Link](/test/test.md)
+[An Internal Link](/test/index.md)
