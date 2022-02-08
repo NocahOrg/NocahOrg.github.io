@@ -1,7 +1,6 @@
-# Noahs Projects:
+# Noah's Projects:
 
 Projects in this subdirectory include: 
-
 - Artifical Intelligence
 - Render engines
 - Physics projects
@@ -10,10 +9,9 @@ Projects in this subdirectory include:
 
 [Link to subdirectory](/Noah/NoahProjectsEntry.md)
 
-# Micahs Projects:
+# Micah's Projects:
 
 Projects in this subdirectory include: 
-
 - 32 Bit Kernel Development
 - Compiler design
 - File System design
@@ -26,9 +24,9 @@ Projects in this subdirectory include:
 # miscellaneous Projects:
 
 Projects in this subdirectory include:
-
 - Janky Online games
 - Sand simulation
+- Arp Spoof / Network technology
 - Other Random games
 
 
