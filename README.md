@@ -23,11 +23,9 @@ Projects in this subdirectory include:
 
 [Link to subdirectory](/Micah/MicahProjectsEntry.md)
 
-Projects in this subdirectory include:
-
-
-
 # miscellaneous Projects:
+
+Projects in this subdirectory include:
 
 - Janky Online games
 - Sand simulation
