@@ -34,7 +34,7 @@ This is a 6502 computer system that is essentially a exact replica of [Ben Eater
 
 [here](/SmallProjects/LogicGates.md) shows how I made a 1 bit adder from NPN transistors
 
-[here](/SmallProjects/Radio.md) shows how I made a crystal radio
+[here](/SmallProjects/Radio.md) shows how I made a crystal radio (unfinished)
 
 [here](/SmallProjects/VideoCard.md) shows how I made a video card (inspired by ben eater). the reason this one is here is because I was unable to finish the project. I understood and built the entire thing but for some reason it wasn't working. I think I have a possible explanation for this. 
 
