@@ -7,8 +7,14 @@ The features of this operating system include:
 - A basic shell with commands (mkdir, create, sysinfo, assemble, cd, etc...)
 - A basic text editor to create assembly programs
 - an assembler to assemble programs
-- A system library to link assembly files to
+- A system library that allows the user to collect input and output data on to the screen
 - graphical interface through the system API
 - ability to store files to Floppy through the FAT12 File system
 
+# Sections:
 
+- [Tools](Dev/bootloaderTools.md)
+- [Bootloader](/bootloader/bootloader.md)
+- [The File System](/FS/FAT12.md)
+- [Switching to C](Dev/SwitchingToC.md)
+- [The Kernel](/kernel/kernel.md)
