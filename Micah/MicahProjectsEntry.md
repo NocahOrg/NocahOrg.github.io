@@ -22,7 +22,7 @@ This CPU is largely based off [this](http://www.buthowdoitknow.com/but_how_do_it
 
 # 6502 computer system
 
-This is a 6502 computer system that is essentially a exact replica of [Ben Eaters 6502 computer](https://youtu.be/LnzuMJLZRdU). I do plan on changin many things about this computer.
+This is a 6502 computer system that is essentially a exact replica of [Ben Eaters 6502 computer](https://youtu.be/LnzuMJLZRdU). I do plan on changing many things about this computer.
 
 ![6502](/PortalImages/IMG_0361.jpeg)
 
