@@ -28,6 +28,3 @@ Projects in this subdirectory include:
 - Sand simulation
 - Arp Spoof / Network technology
 - Other Random games
-
-
-
