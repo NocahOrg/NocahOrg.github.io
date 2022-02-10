@@ -43,10 +43,11 @@ This is a 6502 computer system that is essentially a exact replica of [Ben Eater
 The * indicates that I plan on doing them very soon.
 
 - 32 bit cpu / computer. kernel would be written in custom language compiled by custom compiler.
+- cellular automata 
 - Create compiler that is targeted towards raw metal, so the language is a mix of c and asm. ( not targeted to mac, linux, or windows) *
 - Create ALU or simple cpu from transistors *
 - Create Tesla coil / maybe make button change frequencies of the Tesla coil so you can play it like a synth
-- Create a synth / modular synth from scratch (electrical engineering) *
+- Create a synth / modular synth from scratch (electrical engineering) 
 - Create file system for OS *
 - Disassemble BIOS / firmware to learn way more how bios works (POST, low level memory management, APCI, bus protocols, etc…) maybe flash custom bios?
 - Finish 6502 computer by adding more things to the IO module (random number generator, keyboard, synth / sound card, cassette drive, etc…) *
