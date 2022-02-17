@@ -30,12 +30,16 @@ This is a 6502 computer system that is essentially a exact replica of [Ben Eater
 
 # Other small projects
 
+![AtariGame](/PortalImages/AtariGame.png)
 [here](/SmallProjects/Atari2600) shows how I made games for the Atari 2600.
 
+![1BitAdder](/PortalImages/1BitAdder.jpeg)
 [here](/SmallProjects/LogicGates.md) shows how I made a 1 bit adder from NPN transistors
 
+![CrystalRadio](/PortalImages/CrystalRadio.png)
 [here](/SmallProjects/Radio.md) shows how I made a crystal radio (unfinished)
 
+![VideoCard](/PortalImages/VideoCard.jpeg)
 [here](/SmallProjects/VideoCard.md) shows how I made a video card (inspired by ben eater). the reason this one is here is because I was unable to finish the project. I understood and built the entire thing but for some reason it wasn't working. I think I have a possible explanation for this. 
 
 # Projects I Plan/Want to do:
