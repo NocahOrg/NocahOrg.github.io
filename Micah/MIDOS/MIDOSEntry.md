@@ -11,6 +11,8 @@ The features of this operating system will include:
 - ability to store files to Floppy through the FAT12 File system
 - ability to install OS on to a HDD on the system from floppy (this sort of mimics the "try ubuntu or install ubuntu" feature)
 
+The github for this project can be found [here](https://github.com/micahwagner/My_OS).
+
 # Sections:
 
 - [Tools](Dev/bootloaderTools.md)
