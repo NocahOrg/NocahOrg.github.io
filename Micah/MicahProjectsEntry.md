@@ -20,7 +20,7 @@ This CPU is largely based off [this](http://www.buthowdoitknow.com/but_how_do_it
 
 [Click here for more info](/CPU/CustomCPUEntry.md) 
 
-# 6502 computer system
+# 6502 computer system:
 
 This is a 6502 computer system that is essentially a exact replica of [Ben Eaters 6502 computer](https://youtu.be/LnzuMJLZRdU). I do plan on changing many things about this computer.
 
@@ -28,7 +28,7 @@ This is a 6502 computer system that is essentially a exact replica of [Ben Eater
 
 [Click here for more info](/6502Computer/6502ComputerEntry.md)
 
-# Other small projects
+# Other small projects:
 
 ![AtariGame](/PortalImages/AtariGame.png)
 [here](/SmallProjects/Atari2600) shows how I made games for the Atari 2600.
