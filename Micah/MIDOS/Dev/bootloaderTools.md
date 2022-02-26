@@ -2,7 +2,7 @@
 
 I use several hardware / emulators to ensure my OS is capable of running on a generic 32 bit x86 system. 
 
-- [This site](https://copy.sh/v86/) is an emulator on the browser for a 32 bit x86 system. Debugging the CPU state with this emulator is not possible (at least to my knowledge), but it does give an option to get a memory dump of the entire memory dump. Getting an entire memory dump is extremely useful so I use this sight quite often.
+- [This site](https://copy.sh/v86/) is an emulator on the browser for a 32 bit x86 system. Debugging the CPU state with this emulator is not possible (at least to my knowledge), but it does give an option to get a memory dump. Getting an entire memory dump is extremely useful so I use this sight quite often.
 
 - Bochs is the second emulator I use. I actually don't really like bochs that much, mainly because it doesn't perform very well. Bochs is great for debugging, especially the cpu state. Bochs also has a pretty bad problem with the PIT, as it doesn't count properly. Its kind of hard to describe the problem, but just know that the PIT does not function properly. Surprisingly the browser emulator runs way faster than bochs. I wouldn't suggest using bochs. Instead use qemu or maybe even a virtual box.
 
