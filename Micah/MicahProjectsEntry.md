@@ -6,7 +6,7 @@ The projects here are usually going to be low level or close to the metal. This 
 
 MIDOS is the 32 bit kernel/OS that I've have been working on for the past few months. Everything was made from scratch, including the bootloader. This kernel is not very complex, and it can definitely be improved in many areas. The main goal of this project is to learn how kernels work. 
 
-![MIDOS](/PortalImages/MIDOS.png)
+![MIDOS](/Images/MIDOS.png)
 
 [Click here for more info](/MIDOS/MIDOSEntry.md)
 
@@ -16,7 +16,7 @@ This is a custom 8 bit cpu that I built a while ago. It has a 8 bit address and 
 
 This CPU is largely based off [this](http://www.buthowdoitknow.com/but_how_do_it_know_cpu_model.html) design, but has some notable changes.
 
-![CPU](/PortalImages/CPU.jpeg)
+![CPU](/Images/CPU.jpeg)
 
 [Click here for more info](/CPU/CustomCPUEntry.md) 
 
@@ -24,22 +24,22 @@ This CPU is largely based off [this](http://www.buthowdoitknow.com/but_how_do_it
 
 This is a 6502 computer system that is essentially a exact replica of [Ben Eaters 6502 computer](https://youtu.be/LnzuMJLZRdU). I do plan on changing many things about this computer.
 
-![6502](/PortalImages/IMG_0361.jpeg)
+![6502](/Images/IMG_0361.jpeg)
 
 [Click here for more info](/6502Computer/6502ComputerEntry.md)
 
 # Other small projects:
 
-![AtariGame](/PortalImages/AtariGame.png)
+![AtariGame](/Images/AtariGame.png)
 [here](/SmallProjects/Atari2600) shows how I made games for the Atari 2600.
 
-![1BitAdder](/PortalImages/1BitAdder.jpeg)
+![1BitAdder](/Images/1BitAdder.jpeg)
 [here](/SmallProjects/LogicGates.md) shows how I made a 1 bit adder from NPN transistors
 
-![CrystalRadio](/PortalImages/CrystalRadio.png)
+![CrystalRadio](/Images/CrystalRadio.png)
 [here](/SmallProjects/Radio.md) shows how I made a crystal radio (unfinished)
 
-![VideoCard](/PortalImages/VideoCard.jpeg)
+![VideoCard](/Images/VideoCard.jpeg)
 [here](/SmallProjects/VideoCard.md) shows how I made a video card (inspired by ben eater). the reason this one is here is because I was unable to finish the project. I understood and built the entire thing but for some reason it wasn't working. I think I have a possible explanation for this. 
 
 # Projects I Plan/Want to do:
