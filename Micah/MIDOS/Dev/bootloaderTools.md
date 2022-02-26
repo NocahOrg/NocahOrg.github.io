@@ -11,7 +11,7 @@ I use several hardware / emulators to ensure my OS is capable to run on a generi
 # Compilers/Assemblers: 
 
 - For the assembler, I'm using the NASM assembler. I highly suggest nasm because its easy to use, and it targets a wide variety of architectures.
-- For the C compiler, I'm using a simple docker container that has a cross compiler that targets raw 32 bit machine code. [This](https://github.com/kevincharm/i686-elf-gcc-toolchain) is the link to the docker container. 
+- For the C compiler, I'm using a simple docker container that has a cross compiler that targets raw 32 bit machine code. [This](https://github.com/kevincharm/i686-elf-gcc-toolchain) is the link to the docker container. More about developing a kernel with C is discussed [here](/SwitchingToC.md).
 
 # Disk creation:
 
