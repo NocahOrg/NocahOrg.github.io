@@ -1,6 +1,6 @@
 # Emulators:
 
-I use several hardware / emulators to ensure my OS is capable to run on a generic 32 bit x86 system. 
+I use several hardware / emulators to ensure my OS is capable of running on a generic 32 bit x86 system. 
 
 - [This site](https://copy.sh/v86/) is an emulator on the browser for a 32 bit x86 system. Debugging the CPU state with this emulator is not possible (at least to my knowledge), but it does give an option to get a memory dump of the entire memory dump. Getting an entire memory dump is extremely useful so I use this sight quite often.
 
