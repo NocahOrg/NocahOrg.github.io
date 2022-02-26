@@ -11,9 +11,11 @@ I use several hardware / emulators to ensure my OS is capable of running on a ge
 # Compilers/Assemblers: 
 
 - For the assembler, I'm using the NASM assembler. I highly suggest nasm because its easy to use, and it targets a wide variety of architectures.
+
 - For the C compiler, I'm using a simple docker container that has a cross compiler that targets raw 32 bit machine code. [This](https://github.com/kevincharm/i686-elf-gcc-toolchain) is the link to the docker container. More about developing a kernel with C is discussed [here](/SwitchingToC.md).
 
 # Disk creation:
 
 - To create a preformatted FAT12 floppy disk image, I use the hdiutil command thats built into macos. It works pretty well, and I haven't had any issues with it so far.
+
 - When writing my bootloader to the disk image, I use a command called dd, which essentially lets you copy raw bytes from one location to another. I also use this when writing the OS to a real floppy disk. 
