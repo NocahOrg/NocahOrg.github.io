@@ -6,6 +6,8 @@ My OS's bootloader is not an UEFI bootloader. Since UEFI can emulate Legacy bios
 
 # Stage 1:
 
+## Creating a bootable disk image:
+
 In order to make a disk bootable, a specific magic value is needed at the end of the first sector of the disk. When the bios recognizes this magic number, it will then boot that disk. Below shows a very basic bootloader that clears the interrupts and halts the cpu.
 
 ```
