@@ -30,7 +30,7 @@ The Image below shows the output in machine code.
 
 ![bootloaderbin](/Images/bootloaderbin.png)
 
-Now that we have this bin, we need to put this on the first sector of a disk. To do this, I used the dd command to write this bin to the first sector of a virutal floppy disk image. Below shows the dd command to do this. a.dmg is the virtual floppy disk image.
+Now that we have this bin, we need to put this on the first sector of a disk. To do this, I used the dd command to write this bin to the first sector of a virutal floppy disk image. Below shows the dd command to do this. "a.dmg" is the virtual floppy disk image.
 
 ```
 dd if=Stage1.bin of=a.dmg conv=notrunc;
