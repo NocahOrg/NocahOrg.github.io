@@ -34,7 +34,6 @@ Now that we have this bin, we need to put this on the first sector of a disk. To
 
 ```
 dd if=Stage1.bin of=a.dmg conv=notrunc;
-
 ```
 
 # Stage 2:
