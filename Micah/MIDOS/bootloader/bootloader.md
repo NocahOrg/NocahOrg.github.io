@@ -30,6 +30,8 @@ The Image below shows the output in machine code.
 
 ![bootloaderbin](/Images/bootloaderbin.png)
 
+As you can see, the "cli" and "hlt" have been compiled to its corresponding machine codes. The ``` times 510 - ($-$$) db 0 ``` has padded the rest of the sector with 0. Finally, the magic number is located at the end of the sector.  
+
 Now that we have this bin, we need to put this on the first sector of a disk. To do this, I used the dd command to write this bin to the first sector of a virutal floppy disk image. Below shows the dd command to do this. "a.dmg" is the virtual floppy disk image.
 
 ```
