@@ -13,6 +13,16 @@ The features of this operating system will include:
 
 The github for this project can be found [here](https://github.com/micahwagner/My_OS).
 
+# Prerequisites:
+Below is a list of prerequisite knowledge needed before building a 32-bit x86 operating system
+
+- [This](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH) link leads to a playlist created by ben eater. In this series, Ben Eater creates a 6502 computer system. The reason I recommend this is because it gives a great base understanndding of how the cpu interacts with the rest of the components (ram, rom, io, etc..).
+- [This](https://8bitworkshop.com/v3.8.0/?platform=vcs&file=examples%2Fhello.a) link leads to an online IDE that allows you to code in 6502 assembly for an atari, and many other old computer systems. This is a great source for learning how to code in assembly.
+- [This](https://skilldrick.github.io/easy6502/) link helped me understand 6502 assembly. it goes through all the basics of 6502 assembly. highly recommend for learning 6502 assembly.
+- [This](https://www.youtube.com/watch?v=ojHSzW3zVNU&list=PLZlHzKk21aImqCiV71iE2I1dUE5LNejQk) link isn't necessary, but it gives a great understanding of how cpu's work internally. 
+- [https://www.cs.virginia.edu/~evans/cs216/guides/x86.html] - great source for learning x86 assembly
+- Lastly, learning C is necessary to program an operating system. I suggest watching some youtube tutorials on C.
+
 # Sections:
 
 - [Tools](Dev/bootloaderTools.md)
