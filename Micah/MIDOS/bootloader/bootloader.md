@@ -16,8 +16,8 @@ org 	0x7c00 				; we are loaded by bios to 0x7c00
 cli 					; clear interrupts
 hlt 					; halt cpu
 
-times 510 - ($-$$) db 0  ; pad the rest of the sector with 0
-dw  	0xaa55 			; magic number to tell bios that this disk is bootable
+times 510 - ($-$$) db 0  		; pad the rest of the sector with 0
+dw  	0xaa55 				; magic number 
 ``` 
 
 The 0xaa55 is the magic number that the bios will recognize. The command to compile this is shown below.
