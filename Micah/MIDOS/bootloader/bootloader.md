@@ -8,7 +8,7 @@ My OS's bootloader is not an UEFI bootloader. Since UEFI can emulate Legacy bios
 
 In order to make a disk bootable, a specific magic value is needed at the end of the first sector of the disk. When the bios recognizes this magic number, it will then boot that disk. Below shows a very basic bootloader that clears the interrupts and halts the cpu.
 
-'''
+```
 bits	16 					; 16 bit real mode	
 
 org 	0x7c00 				; we are loaded by bios to 0x7c00	
@@ -18,13 +18,13 @@ hlt 						; halt cpu
 
 times 510 - ($-$$) db 0  	; pad the rest of the sector with 0
 dw  	0xaa55 				; magic number to tell bios that this disk is bootable
-''' 
+``` 
 
 The 0xaa55 is the magic number that the bios will recognize. The command to compile this is shown below.
 
-'''
+```
 nasm -f bin Stage1.asm -o Stage1.bin
-'''
+```
 
 The Image below shows the output in machine code.
 
