@@ -39,8 +39,10 @@ Now that we have this bin, we need to put this on the first sector of a disk. To
 ```
 dd if=Stage1.bin of=a.dmg conv=notrunc;
 ```
-As you could imagine, this is a pretty terrible bootloader, as it actually isn't loading anything at all. 
+When booting from this virtual floppy disk, the computer successfully identifys this drive as bootable. Apon execution of the bootloader, the computer is halted immediately by the "cli" and "hlt" instructions. As you could imagine, this is a pretty terrible bootloader, as it actually isn't loading anything at all. 
 
 ### Creating the bootloader:
+
+
 
 # Stage 2:
