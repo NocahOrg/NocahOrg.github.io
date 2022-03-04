@@ -50,7 +50,7 @@ mkdir MiDOS
 hdiutil create -size 1440k -fs "MS-DOS FAT12" -layout NONE -srcfolder MiDOS -format UDRW -ov .././disks/a.dmg
 rm -r MiDOS
 ``` 
-Now that I had this FAT12 virtual floppy disk, all I needed to do was drag and drop the stage 2 bins into the root of this disk image. Because I haven't actually created stage 2 yet, I made a stage 2 stub. This stub was just used to test the functionality of the stage 1 bootloader. The code below shows the stub for stage 2.
+Now that I had this FAT12 virtual floppy disk, all I needed to do was copy the stage 2 bins into the root of this disk image. Because I haven't actually created stage 2 yet, I made a stage 2 stub. This stub was just used to test the functionality of the stage 1 bootloader. The code below shows the stub for stage 2.
 
 ```
 org 0x0500		; we are loaded at linear address 0x500
