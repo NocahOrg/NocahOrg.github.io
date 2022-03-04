@@ -43,6 +43,25 @@ When booting from this virtual floppy disk, the computer successfully identifys 
 
 ### Creating the bootloader:
 
+The stage 1 bootloader is very basic. All it does is parse the disk to load the stage 2 bootloader. After loading stage 2, it will switch execution to stage 2. In order to store stage 2 on a disk, the disk must be formatted with a specific file system. For my operating system, I decided to use the FAT12 file system. I do plan on creating my own file system later on, but for now I'm just using the FAT12 standard. Since I'm on a mac, I used the hdiutil to create a FAT12 formatted floppy disk. The commands below shows how to create a virtul floppy image formated with the FAT12 file system.
+
+```
+mkdir MiDOS
+hdiutil create -size 1440k -fs "MS-DOS FAT12" -layout NONE -srcfolder MiDOS -format UDRW -ov .././disks/a.dmg
+rm -r MiDOS
+``` 
+Now that I had this FAT12 virtual floppy disk, all I needed to do was drag and drop the stage 2 bins into the root of this disk image. Because I haven't actually created stage 2 yet, I made a stage 2 stub. This stub was just used to test the functionality of the stage 1 bootloader. The code below shows the stub for stage 2.
+
+```
+org 0x0500		; we are loaded at linear address 0x500
+ 
+bits 	16		; we are still in real mode
+
+cli
+hlt
+```
+
+The section that explains the code for how stage 1 parses the FAT12 formated disk is [here](../FS/FAT12.md).
 
 
 # Stage 2:
