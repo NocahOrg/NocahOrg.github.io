@@ -61,6 +61,8 @@ The * indicates that I plan on doing them very soon.
 - create a raycast engine that fits in the bootsector *
 - create a sand sim that fits in the boot sector *
 - create a game on MIDOS *
+	- the game under MSP430 might be made on MIDOS, currently not sure
 - mess around with the MSP430*
+	- create a game that is a rougelike, but every time you get damaged you get shocked (your tolerance in your health)
 
 
