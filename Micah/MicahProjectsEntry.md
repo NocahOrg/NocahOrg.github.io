@@ -61,5 +61,6 @@ The * indicates that I plan on doing them very soon.
 - create a raycast engine that fits in the bootsector *
 - create a sand sim that fits in the boot sector *
 - create a game on MIDOS *
+- mess around with the MSP430*
 
 
