@@ -58,8 +58,9 @@ The * indicates that I plan on doing them very soon.
 - Create a memristor, battery, capacitor, transistor, resistor from scratch (inspired by nile reds channel) *
 - Make a arp spoofer app for apple tv for connecting to hotel networks
 - Learn big O notation and other optimization tactics 
-- create a raycast engine that fits in the bootsector *
-- create a sand sim that fits in the boot sector *
+- create bootsector programs
+	- create a raycast engine that fits in the bootsector 
+	- create a sand sim that fits in the boot sector 
 - create a game on MIDOS *
 	- the game under MSP430 might be made on MIDOS, currently not sure
 - mess around with the MSP430*
