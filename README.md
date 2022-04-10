@@ -13,7 +13,6 @@ Projects in this subdirectory include:
 
 Projects in this subdirectory include: 
 - 32 Bit Kernel Development
-- Compiler design
 - File System design
 - 8 bit CPU design
 - 6502 computer system

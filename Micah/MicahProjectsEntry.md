@@ -47,15 +47,15 @@ This is a 6502 computer system that is essentially a exact replica of [Ben Eater
 The * indicates that I plan on doing them very soon.
 
 - 32 bit cpu / computer. kernel would be written in custom language compiled by custom compiler.
-- Create compiler that is targeted towards raw metal, so the language is a mix of c and asm. ( not targeted to mac, linux, or windows) *
+- Create compiler for a simple B type programing language 
 - Create ALU or simple cpu from transistors 
-- Create Tesla coil / maybe make button change frequencies of the Tesla coil so you can play it like a synth
+- Create Tesla coil / maybe make button change frequencies of the Tesla coil so you can play it like a synth *
 - Create a synth / modular synth from scratch (electrical engineering) *
 - Create file system for OS *
 - Disassemble BIOS / firmware to learn way more how bios works (POST, low level memory management, APCI, bus protocols, etc…) maybe flash custom bios?
 - Finish 6502 computer by adding more things to the IO module (random number generator, keyboard, synth / sound card, cassette drive, etc…) 
 - Reverse engineer linux kernel (obviously reference sources such as https://0xax.gitbooks.io/linux-insides/content/ )
-- Create a memristor, battery, capacitor, transistor, resistor from scratch (inspired by nile reds channel) *
+- Create a memristor, battery or NMOS transistor from scratch (inspired by nile reds channel) *
 - Make a arp spoofer app for apple tv for connecting to hotel networks
 - Learn big O notation and other optimization tactics 
 - create bootsector programs
@@ -63,7 +63,8 @@ The * indicates that I plan on doing them very soon.
 	- create a sand sim that fits in the boot sector 
 - create a game on MIDOS *
 	- the game under MSP430 might be made on MIDOS, currently not sure
-- mess around with the MSP430*
+- mess around with the MSP430
 	- create a game that is a rougelike, but every time you get damaged you get shocked (your tolerance in your health)
+- create submarine that can be remotley controlled that also can withstand extreme pressure. Also have enough room for gopro to be in the cockpit *
 
 
