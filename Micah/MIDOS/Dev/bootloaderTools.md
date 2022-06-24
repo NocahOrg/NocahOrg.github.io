@@ -16,6 +16,6 @@ I use several hardware / emulators to ensure my OS is capable of running on a ge
 
 # Disk creation:
 
-- To create a preformatted FAT12 floppy disk image, I use the hdiutil command thats built into macos. It works pretty well, and I haven't had any issues with it so far.
+- To create a preformatted FAT12 floppy disk image, I use the hdiutil command thats built into macos. It works pretty well, and I haven't had any issues with it so far. One thing to note is that hdiutil creates 512 root entrys, not 224. 
 
 - When writing my bootloader to the disk image, I use a command called dd, which essentially lets you copy raw bytes from one location to another. I also use this when writing the OS to a real floppy disk. 
